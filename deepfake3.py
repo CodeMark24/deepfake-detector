@@ -253,7 +253,7 @@ def verify_image_authenticity(
     except Exception as e:
         print(f"Error: {e}")
 
-
+#  SIMPLE TEST, FUNCTION CALL ON AN IMAGE WITHIN THE PROJECT FOLDER
 verify_image_authenticity(
     "mark.jpg"
 )
